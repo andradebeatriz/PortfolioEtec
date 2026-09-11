@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #100910;
+  --bg-soft: #170d16;
+  --panel: #1c1120;
+  --panel-border: #35202f;
+  --pink: #ff79c6;
+  --pink-soft: #ffa9dc;
+  --pink-dim: #7a3b62;
+  --text: #f6eef3;
+  --text-muted: #c9b6c4;
+  --text-faint: #8a7285;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --font-display: "Baloo 2", "Inter", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.eyebrow {
+  color: var(--pink);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.9rem, 3.4vw, 2.7rem);
+  line-height: 1.15;
+  margin: 0.3rem 0 0.9rem;
+}
+
+.section-lede {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 640px;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}

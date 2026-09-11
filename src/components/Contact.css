@@ -1,0 +1,30 @@
+.contact {
+  border-top: 1px solid var(--panel-border);
+  padding: 90px 0 30px;
+  margin-top: 40px;
+  background: linear-gradient(180deg, transparent, rgba(255, 121, 198, 0.05));
+}
+
+.contact__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 50px;
+}
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.contact__credit {
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  padding-top: 24px;
+  border-top: 1px solid var(--panel-border);
+  margin: 0 24px;
+}

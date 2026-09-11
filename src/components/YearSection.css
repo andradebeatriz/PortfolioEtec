@@ -1,0 +1,14 @@
+.year {
+  padding: 60px 0;
+  border-top: 1px solid var(--panel-border);
+}
+
+.year__header {
+  margin-bottom: 34px;
+}
+
+.year__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}

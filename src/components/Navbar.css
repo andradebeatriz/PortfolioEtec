@@ -1,0 +1,118 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 22px 0;
+  transition: background 0.3s ease, padding 0.3s ease, border-color 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.nav--scrolled {
+  background: rgba(16, 9, 16, 0.86);
+  backdrop-filter: blur(10px);
+  padding: 14px 0;
+  border-bottom-color: var(--panel-border);
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.nav__brand-mark {
+  color: var(--pink);
+  font-size: 1.3rem;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.96rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav__links a:hover {
+  color: var(--pink-soft);
+}
+
+.nav__toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: 6px;
+}
+
+.nav__toggle span {
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+@media (max-width: 820px) {
+  .nav__links {
+    position: fixed;
+    top: 68px;
+    left: 16px;
+    right: 16px;
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 10px;
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.18s ease, opacity 0.18s ease;
+  }
+
+  .nav__links--open {
+    transform: scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav__links a {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: var(--radius-sm);
+  }
+
+  .nav__links a:hover {
+    background: rgba(255, 121, 198, 0.1);
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+}
