@@ -11,7 +11,7 @@
 </div>
 
 <div align="center" width="100%">
-      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&color=ff79c6&width=900&size=22&center=true&lines=Bem-vindo(a)+ao+meu+Portf%C3%B3lio+ETEC;Sou+aluna+do+2+Desenvolvimento+de+Sistemas;Explore+meus+aprendizados+e+resumos+de+palestras!" alt="Typing SVG"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Iosevka&color=ff79c6&width=900&size=22&center=true&lines=Bem-vindo(a)+ao+meu+Portf%C3%B3lio+ETEC;Sou+aluna+do+3+Desenvolvimento+de+Sistemas;Explore+meus+aprendizados+e+resumos+de+palestras!" alt="Typing SVG"/>
 </div>
 
 <br>
@@ -23,6 +23,8 @@
 Este portfólio registra as palestras do AMS que assisti e os principais conhecimentos adquiridos em cada uma delas. Além de um resumo de cada palestra, inclui insights e reflexões pessoais que ajudam a compreender a aplicabilidade dos conteúdos no mercado de trabalho.
 
 As palestras estão organizadas por ano, oferecendo uma visão cronológica do aprendizado. Cada tema aborda assuntos relevantes para minha formação, preparando-me para o futuro profissional e ampliando minha visão sobre tecnologia, produtividade, inovação e desenvolvimento pessoal.
+
+O site foi desenvolvido em React (Vite), com design inspirado no portfólio da Palchhin (hero escuro, menu fixo, ícones sociais flutuantes), na paleta rosa que você confere aqui no README. Cada palestra tem um card com resumo e, ao clicar, um modal mostra os aprendizados completos, a reflexão pessoal e a galeria de registros (prints e fotos) de quem tinha material visual.
 
 ##
 
@@ -58,10 +60,16 @@ As palestras estão organizadas por ano, oferecendo uma visão cronológica do a
 - **Treinamento de banco de dados**  
 - **Segurança de informação e Cibersegurança**  
 - **Inteligência Artificial na Prática: Aplicações no Mercado**
+- **Desenvolvimento Mobile: Criando Aplicativos do Zero**
 
-<br>
+<samp>
+<h2>Palestras 2026</h2>
+</samp>
+
+- **Analista de Suporte na Prática**
 
 ##
+<br>
 
 <samp>
 <h2>۶ৎ Contato </h2>
