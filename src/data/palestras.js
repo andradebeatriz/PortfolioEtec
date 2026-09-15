@@ -97,7 +97,7 @@ const palestras = [
   },
   {
     id: "tendencias-ia-generativa",
-    imagens: ["/public/images/images-novas/tendencias-ia-generativa/1.jpg"],
+    imagens: ["/images/tendencias-ia-generativa/1.jpg"],
     ano: 2024,
     titulo:
       "Quais as tendências da área de TI com a virada da IA Generativa e outras tecnologias",
@@ -114,7 +114,7 @@ const palestras = [
   },
   {
     id: "soft-skills",
-    imagens: ["/public/images/images-novas/soft-skills/1.jpg", "/public/images/images-novas/soft-skills/2.jpg", "/public/images/images-novas/soft-skills/3.jpg", "/public/images/images-novas/soft-skills/4.jpg"],
+    imagens: ["/images/soft-skills/1.jpg", "/images/soft-skills/2.jpg", "/images/soft-skills/3.jpg", "/images/soft-skills/4.jpg"],
     ano: 2024,
     titulo: "Soft Skills",
     palestrante: "Liliane Pereira",
@@ -130,7 +130,7 @@ const palestras = [
   },
   {
     id: "capricho",
-    imagens: ["/public/images/images-novas/capricho/1.jpg", "/public/images/images-novas/capricho/2.jpg"],
+    imagens: ["/images/capricho/1.jpg", "/images/capricho/2.jpg"],
     ano: 2024,
     titulo: "Capricho: skill cada vez mais raro no mercado",
     palestrante: "Luiz Fernando Milagres",
@@ -160,7 +160,7 @@ const palestras = [
   },
   {
     id: "preparando-para-o-amanha",
-    imagens: ["/public/images/images-novas/preparando-para-o-amanha/1.jpg"],
+    imagens: ["/images/preparando-para-o-amanha/1.jpg"],
     ano: 2024,
     titulo: "Preparando-se para o amanhã: da Etec/Fatec para o mundo",
     palestrante: "Flávia Freitas",
@@ -195,7 +195,7 @@ const palestras = [
   // ---------------- 2025 ----------------
   {
     id: "primeiro-emprego-ti",
-    imagens: ["/public/images/images-novas/primeiro-emprego-ti/1.jpg", "/public/images/images-novas/primeiro-emprego-ti/2.jpg"],
+    imagens: ["/images/primeiro-emprego-ti/1.jpg", "/images/primeiro-emprego-ti/2.jpg"],
     ano: 2025,
     titulo: "Desafios do primeiro emprego em TI e como superá-los",
     palestrante: "Tiago Baldo",
@@ -232,7 +232,7 @@ const palestras = [
   },
   {
     id: "linkedin-marca-pessoal",
-    imagens: ["/public/images/images-novas/linkedin-marca-pessoal/1.jpg", "/public/images/images-novas/linkedin-marca-pessoal/2.jpg", "/public/images/images-novas/linkedin-marca-pessoal/3.jpg", "/public/images/images-novas/linkedin-marca-pessoal/4.jpg", "/public/images/images-novas/linkedin-marca-pessoal/5.jpg", "/public/images/images-novas/linkedin-marca-pessoal/6.jpg"],
+    imagens: ["/images/linkedin-marca-pessoal/1.jpg", "/images/linkedin-marca-pessoal/2.jpg", "/images/linkedin-marca-pessoal/3.jpg", "/images/linkedin-marca-pessoal/4.jpg", "/images/linkedin-marca-pessoal/5.jpg", "/images/linkedin-marca-pessoal/6.jpg"],
     ano: 2025,
     titulo: "LinkedIn e Marca Pessoal para Profissionais de TI",
     palestrante: "Priscila",
@@ -266,7 +266,7 @@ const palestras = [
   },
   {
     id: "empreendedorismo-inovacao",
-    imagens: ["/public/images/images-novas/empreendedorismo-inovacao/1.jpg", "/public/images/images-novas/empreendedorismo-inovacao/2.jpg", "/public/images/images-novas/empreendedorismo-inovacao/3.jpg", "/public/images/images-novas/empreendedorismo-inovacao/4.jpg", "/public/images/images-novas/empreendedorismo-inovacao/5.jpg"],
+    imagens: ["/images/empreendedorismo-inovacao/1.jpg", "/images/empreendedorismo-inovacao/2.jpg", "/images/empreendedorismo-inovacao/3.jpg", "/images/empreendedorismo-inovacao/4.jpg", "/images/empreendedorismo-inovacao/5.jpg"],
     ano: 2025,
     titulo: "Empreendedorismo e Inovação na Tecnologia",
     palestrante: "Luciana Ogusco",
@@ -285,7 +285,7 @@ const palestras = [
   },
   {
     id: "produtividade-organizacao",
-    imagens: ["/public/images/images-novas/produtividade-organizacao/1.jpg", "/public/images/images-novas/produtividade-organizacao/2.jpg", "/public/images/images-novas/produtividade-organizacao/3.jpg", "/public/images/images-novas/produtividade-organizacao/4.jpg", "/public/images/images-novas/produtividade-organizacao/5.jpg", "/public/images/images-novas/produtividade-organizacao/6.jpg"],
+    imagens: ["/images/produtividade-organizacao/1.jpg", "/images/produtividade-organizacao/2.jpg", "/images/produtividade-organizacao/3.jpg", "/images/produtividade-organizacao/4.jpg", "/images/produtividade-organizacao/5.jpg", "/images/produtividade-organizacao/6.jpg"],
     ano: 2025,
     titulo: "Produtividade e Organização no Dia a Dia",
     palestrante: "Henrico Gabriel Ibanez",
@@ -321,7 +321,7 @@ const palestras = [
   },
   {
     id: "seguranca-ciberseguranca",
-    imagens: ["/public/images/images-novas/seguranca-ciberseguranca/1.jpg", "/public/images/images-novas/seguranca-ciberseguranca/2.jpg"],
+    imagens: ["/images/seguranca-ciberseguranca/1.jpg", "/images/seguranca-ciberseguranca/2.jpg"],
     ano: 2025,
     titulo: "Segurança de informação e Cibersegurança",
     palestrante: "Guilherme Rodrigues Mattos",
@@ -339,7 +339,7 @@ const palestras = [
   },
   {
     id: "ia-na-pratica",
-    imagens: ["/public/images/images-novas/ia-na-pratica/1.jpg", "/public/images/images-novas/ia-na-pratica/2.jpg", "/public/images/images-novas/ia-na-pratica/3.jpg", "/public/images/images-novas/ia-na-pratica/4.jpg", "/public/images/images-novas/ia-na-pratica/5.jpg", "/public/images/images-novas/ia-na-pratica/6.jpg", "/public/images/images-novas/ia-na-pratica/7.jpg"],
+    imagens: ["/images/ia-na-pratica/1.jpg", "/images/ia-na-pratica/2.jpg", "/images/ia-na-pratica/3.jpg", "/images/ia-na-pratica/4.jpg", "/images/ia-na-pratica/5.jpg", "/images/ia-na-pratica/6.jpg", "/images/ia-na-pratica/7.jpg"],
     ano: 2025,
     titulo: "Inteligência Artificial na Prática: Aplicações no Mercado",
     palestrante: "Lucas Lascasas",
@@ -358,7 +358,7 @@ const palestras = [
   },
   {
     id: "desenvolvimento-mobile",
-    imagens: ["/public/images/images-novas/desenvolvimento-mobile/1.jpg", "/public/images/images-novas/desenvolvimento-mobile/2.jpg", "/public/images/images-novas/desenvolvimento-mobile/3.jpg", "/public/images/images-novas/desenvolvimento-mobile/4.jpg", "/public/images/images-novas/desenvolvimento-mobile/5.jpg", "/public/images/images-novas/desenvolvimento-mobile/6.jpg", "/public/images/images-novas/desenvolvimento-mobile/7.jpg"],
+    imagens: ["/images/desenvolvimento-mobile/1.jpg", "/images/desenvolvimento-mobile/2.jpg", "/images/desenvolvimento-mobile/3.jpg", "/images/desenvolvimento-mobile/4.jpg", "/images/desenvolvimento-mobile/5.jpg", "/images/desenvolvimento-mobile/6.jpg", "/images/desenvolvimento-mobile/7.jpg"],
     ano: 2025,
     titulo: "Desenvolvimento Mobile: Criando Aplicativos do Zero",
     palestrante: "Lucas de Assis Cefali Almeida",
@@ -378,7 +378,7 @@ const palestras = [
   // ---------------- 2026 ----------------
   {
     id: "analista-suporte-pratica",
-    imagens: ["/public/images/images-novas/analista-suporte-pratica/1.jpg"],
+    imagens: ["/images/analista-suporte-pratica/1.jpg"],
     ano: 2026,
     titulo: "Analista de Suporte na Prática",
     palestrante: "Representantes da Itix",

@@ -6,7 +6,6 @@ export default function About() {
   const stats = [
     { value: palestras.length, label: "palestras assistidas" },
     { value: anos.length, label: "anos de AMS" },
-    { value: "60h", label: "de horas complementares" },
   ];
 
   return (
@@ -32,7 +31,13 @@ export default function About() {
           </p>
         </div>
 
-        <div className="about__stats">
+        <div
+          className="about__stats"
+          style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}
+        >
+          <div className="about__ornament" aria-hidden="true">
+            <img src="/BiaIcon.svg" alt="" />
+          </div>
           {stats.map((s) => (
             <div key={s.label} className="stat-card">
               <span className="stat-card__value">{s.value}</span>

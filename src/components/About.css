@@ -23,6 +23,23 @@
   gap: 14px;
 }
 
+.about__ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 100%;
+  min-height: 110px;
+}
+
+.about__ornament img {
+  width: clamp(72px, 12vw, 126px);
+  height: auto;
+  opacity: 0.8;
+  filter: invert(66%) sepia(46%) saturate(1011%) hue-rotate(286deg)
+    brightness(103%) contrast(101%);
+  transform: rotate(12deg);
+}
+
 .stat-card {
   background: var(--panel);
   border: 1px solid var(--panel-border);
